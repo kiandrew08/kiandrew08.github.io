@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Boogaloo|Annie+Use+Your+Telescope|Luckiest+Guy|Nanum+Brush+Script|Special+Elite');
+
+/*https://scontent.fceb2-2.fna.fbcdn.net/v/t1.0-9/11217183_1004436532934573_318594360294667621_n.jpg?_nc_cat=100&_nc_eui2=AeGnDL9VaOewvYWliXONfyca8RuqWXPPdqtnTbs_L2x0zGSg_u9aLQ_wFVkRXyD3TQN1tuv56ephcVPP2pQJYTTyGGUonJ5V8ROSqhcyl7-GxA&oh=02c8dcd0b92004549bbfb6d380f3afdd&oe=5C207624*/
+/* fb: https://www.facebook.com/bwesico;*/
+/*twitter: https://twitter.com/pepperon_ndrew*/
+/* insta: https://www.instagram.com/kian.drew/ */
+
+
+body{	
+	background-image: url("Busico.jpg");
+	background-size: cover ;
+	background-repeat: no-repeat;
+	
+}
+
+h1{
+	margin: 8% 0 0%;
+    width: 100%;
+    text-align: center;
+    font-size: 1000%;
+    font-family: 'Special Elite', cursive;
+    font-weight: 100;
+    color: white;
+    letter-spacing: 5px;
+
+
+}
+
+#buttonwrapper{
+	/*border: 2px solid ;*/
+	overflow: auto;
+	width: 75%;
+	margin: auto;
+
+       
+}
+#article1, #article2, #article3, #article4 {
+	background-color: black;
+	border-style: solid;
+	border-color: white;
+	border-radius: 20px;
+	font-size: 200%;
+	font-weight: 100;
+
+	font-family: 'Special Elite', cursive;
+	color: red;
+	letter-spacing: 2px;
+	text-align: center;
+	padding-top: 5px;
+    margin-bottom:  15px;
+}
+
+div a:link{
+    text-decoration: none;
+    color:blue;
+
+}
+
+div a:visited{
+    text-decoration: none;
+    color:blue;
+}
+
+
+#article1:hover {
+	color: blue;
+	text-transform: uppercase;
+    font-style: 'Boogaloo'; 
+    font-size: 300%;
+    font-weight: 200;
+
+}
+
+#article2:hover {
+	color: blue;
+    text-transform: uppercase;
+    font-size: 300%;
+    font-weight: 200;
+}
+
+#article3:hover {
+	color: blue;
+    text-transform: uppercase;
+    font-size: 300%;
+    font-weight: 200;
+}
+
+#article4:hover {
+	color: blue;
+    text-transform: uppercase;
+    font-size: 300%;
+    font-weight: 200;
+
+}
+
+
+ul {
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    color: white;
+    text-decoration: none;
+}
+
+
+.active {
+    background-color: red;
+}
+
+.button span {
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+    -webkit-transition-delay: 100s;
+    -moz-transition-delay: 100s;
+    -o-transition-delay: 100s;
+    transition-delay: 100s;
+}
+
+.button:before,
+.button:after {
+    content: '';
+    /*position: absolute;
+    top: 0.67em;
+    left: 0;*/
+    width: 25%;
+    padding: 2.5 ;
+    text-align: center;
+  
+    opacity: 1;
+    -webkit-transition: .4s,opacity 0s;
+    -moz-transition: .4s,opacity 0s;
+    -o-transition: .4s,opacity 0s;
+    transition: .4s,opacity 0s;
+}
+
+/* :before */
+
+.button:before {
+    content: attr(data-hover);
+    -webkit-transform: translate(-150%,0);
+    -moz-transform: translate(-150%,0);
+    -ms-transform: translate(-150%,0);
+    -o-transform: translate(-150%,0);
+    transform: translate(-150%,0);
+}
+
+/* :after */
+
+.button:after {
+    content: attr(data-active);
+    -webkit-transform: translate(150%,0);
+    -moz-transform: translate(150%,0);
+    -ms-transform: translate(150%,0);
+    -o-transform: translate(150%,0);
+    transform: translate(150%,0);
+}
+
+/* Span on :hover and :active */
+
+.button:hover span,
+.button:active span {
+    opacity: 1;
+    color: red; 
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    -o-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+/*  
+    We show :before pseudo-element on :hover 
+    and :after pseudo-element on :active 
+*/
+
+.button:hover:before,
+.button:active:after {
+    opacity: 1;
+    /*color: blue;*/
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-transition-delay: 1000s;
+    -moz-transition-delay: 1000s;
+    -o-transition-delay: 1000s;
+    transition-delay: 1000s;
+}
+
+/* 
+  We hide :before pseudo-element on :active
+*/
+
+.button:active:before {
+    -webkit-transform: translate(-150%,0);
+    -moz-transform: translate(-150%,0);
+    -ms-transform: translate(-150%,0);
+    -o-transform: translate(-150%,0);
+    transform: translate(-150%,0);
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.button:hover{
+    text-align: center;
+    z-index: 100;
+}
