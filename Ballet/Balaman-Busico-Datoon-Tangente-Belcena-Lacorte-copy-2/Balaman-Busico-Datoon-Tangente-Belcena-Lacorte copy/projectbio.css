@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey|Pinyon+Script|Noto+Serif+TC|Raleway');
+
+img{
+	margin-left: -30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+    font-family: monospace;
+    position: absolute;
+}
+
+ul {
+  background: darkorange;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+	font-family: Raleway;
+	text-align: center;
+    color: #fff;
+  background: #FF00F4;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+  transition-duration: 0.5s;
+}
+  
+li a {
+  color: #fff;
+}
+
+li:hover,
+li:focus-within {
+    background: #E853BA;
+    cursor: pointer;
+}
+
+li:focus-within a {
+  outline: none;
+}
+
+ul li ul {
+    background: orange;
+    visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+    left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block
+}
+
+ul li ul li {
+    clear: both;
+  width: 100%;
+}
+
+
+body{
+	background-color: #ffe1f0;
+}
+
+.container{
+	max-width: 95%;
+	margin: 0 auto;
+	background: #f9f9f9;
+	padding: 1.5%;
+	height: 50%;
+}
+
+.parallax{
+	background: url(https://i.imgur.com/TC7CGbA.jpg); 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 25%;
+}
+
+img.ballerina{
+	width: 150px;
+}
+
+
+header{
+	text-align: center;
+	line-height: 0em;
+	border-bottom: 1px solid;
+	padding: 40px 25px;
+	margin: 20px 25px;
+}
+h1{
+	font-family: 'Arapey', serif;
+	font-size: 100px;
+	font-weight: 100;
+}
+h5{
+	font-family: 'Arapey', serif;
+	font-size: 25px;
+	font-weight: 600;
+}
+.container{
+	margin: 0 30px;
+	padding: 55px;
+	background-color: rgba(255,255,255,0.3);
+}
+h2{
+	font-family: 'Arapey', serif;
+	font-weight: 100;
+}
+p{
+	font-family: 'Raleway', sans-serif;
+	text-indent: 25px;
+	text-align: justify;
+}
+
+#left-pic{
+
+}
+
+#pic{
+	margin-left: 2%; 
+
+}
+
+.pix{
+	width: 22%;
+	height: 22%;
+	margin-right: %;
+	margin-left: 2%; 
+	border: 
+}
+
+.pix1{
+	width: 90%;
+	height: 40%;
+	margin-left: 5%;
+
+}
+#intro{
+	position: absolute;
+	border: 2px solid transparent;
+	width: 90%;
+	height: 12%;
+	margin-left: 3.5%;
+	padding:0% 1% 1% 1%;
+
+}
+
+
+
+
+
+#first{
+	position: absolute;
+	border: 2px solid transparent;
+	width: 55%;
+	height: 155%;
+	margin-left: 3.5%;
+	margin-top: 8.5%;
+	padding: 0 1% 1% 1%;
+}
+
+#second{
+	position: absolute;
+	border: 2px solid transparent;
+	width: 31%;
+	height: 80%;
+	margin-left: 62.5%;
+	margin-top: 8.5%;
+	padding: 0 1% 1% 1%;
+}
+
+#third{
+	position: absolute;
+	border: 2px solid transparent;
+	width: 31%;
+	height: 29%;
+	margin-left: 62.5%;
+	margin-top: 50%;
+	padding: 0 1% 1% 1%;
+}
+
+#fourth{
+	position: absolute;
+	border: 2px solid transparent;
+	width: 31%;
+	height: 35%;
+	margin-left: 62.5%;
+	margin-top: 67%;
+	padding: 0 1% 1% 1%;
+}
+
+#fifth{
+	position: absolute;
+	
+	width: 30%;
+	height: 35%;
+	margin-left: 62.5%;
+	margin-top: 100%;
+
+}
+
+#sixth{
+	position: absolute;
+
+	width: 30%;
+	height: 35%;
+	margin-left: 62.5%;
+	margin-top: 42%;
+
+
+}
+
+div{
+	background-color: #feffed;
+
+}

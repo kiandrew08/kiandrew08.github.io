@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey|Pinyon+Script|Noto+Serif+TC|Raleway');
+body{
+	background-color: #ffe1f0;
+}
+
+img.icon{
+  margin-left: -30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+    font-family: monospace;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li.list {
+  font-family: Raleway;
+  text-align: center;
+    color: #fff;
+  background: #FF00F4;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+  transition-duration: 0.5s;
+}
+  
+li.list a {
+  color: #fff;
+}
+
+li.list:hover,
+li.list:focus-within {
+    background: #E853BA;
+    cursor: pointer;
+}
+
+li.list:focus-within a {
+  outline: none;
+}
+
+ul li.list ul {
+    background: orange;
+    visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+    left: 0;
+  display: none;
+}
+
+ul li.list:hover > ul,
+ul li.list:focus-within > ul,
+ul li.list ul:hover,
+ul li.list ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block
+}
+
+ul li.list ul li.list {
+    clear: both;
+  width: 100%;
+}
+header{
+	text-align: center;
+	line-height: 0em;
+	border-bottom: 1px solid;
+	padding: 40px 25px;
+	margin: 20px 25px;
+}
+h1{
+	font-family: 'Arapey', serif;
+	font-size: 100px;
+	font-weight: 100;
+}
+h5{
+	font-family: 'Arapey', serif;
+	font-size: 25px;
+	font-weight: 600;
+}
+div{
+	position: absolute;
+	padding: 50px;
+	background-color: #FEFFED;
+}
+img.ballerina{
+	width: 150px;
+}
+img.icons{
+	width: 75px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;	
+}
+img.pics{
+	width: 286px;
+	max-height: 500px;
+}
+p.center{
+	text-align: center;
+}
+#hair{
+	margin-left: 5%;
+	max-height: 143%;
+	width: 50%;
+}
+
+#gel{
+	margin-left: 5%;
+	margin-top: 28.4%;
+	max-height: 143.6%;
+	width: 50%;
+}
+
+#deodorant{
+	margin-left: 5%;
+	margin-top: 85.6%;
+	max-height: 143%;
+	width: 50%;
+}
+
+#polyester{
+	margin-left: 5%;
+	margin-top: 162.9%;
+	max-height: 143%;
+	width: 50%;
+}
+#ballet{
+	margin-left: 5%;
+	margin-top: 195.2%;
+	max-height: 115%;
+	width: 50%;
+}
+#chem{
+	margin-left: 5%;
+	margin-top: 260.9%;
+	max-height: 115%;
+	width: 50%;
+}
+#first{
+	margin-left: 64.9%;
+	width: 283px;
+	height: 420px;
+}
+#second{
+	margin-left: 64.9%;
+	width: 283px;
+	height: 330px;
+	margin-top: 40.8%;
+}
+#third{
+	margin-left: 64.9%;
+	width: 283px;
+	height: 330px;
+	margin-top: 75.1%;
+}
+#fourth{
+	margin-left: 64.9%;
+	width: 283px;
+	height: 330px;
+	margin-top: 109.5%;
+}
+#fifth{
+	margin-left: 64.9%;
+	width: 283px;
+	height: 330px;
+	margin-top: 143.8%;
+}
+#sixth{
+	margin-left: 64.9%;
+	width: 283px;
+	height: 420px;
+	margin-top: 178.2%;
+}
+#seventh{
+	margin-left: 64.9%;
+	width: 283px;
+	height: 431px;
+	margin-top: 219.2%;
+}
+#eighth{
+	margin-left: 64.9%;
+	width: 283px;
+	height: 525px;
+	margin-top: 260.8%;
+}
+h2{
+	font-family: 'Arapey', serif;
+	font-weight: 100;
+}
+p{
+	font-family: 'Raleway', sans-serif;
+	text-indent: 25px;
+	text-align: justify;
+}
+ul{
+	list-style: none;
+	font-family: 'Raleway', sans-serif;
+}

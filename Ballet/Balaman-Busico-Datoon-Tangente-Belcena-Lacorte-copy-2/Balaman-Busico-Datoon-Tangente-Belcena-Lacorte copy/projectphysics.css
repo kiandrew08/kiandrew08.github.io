@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey|Pinyon+Script|Noto+Serif+TC|Raleway');
+body{
+	background-color: #ffe1f0;
+}
+img.icon{
+	margin-left: -30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+    font-family: monospace;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li.list {
+	font-family: Raleway;
+	text-align: center;
+    color: #fff;
+  background: #FF00F4;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+  transition-duration: 0.5s;
+}
+  
+li.list a {
+  color: #fff;
+}
+
+li.list:hover,
+li.list:focus-within {
+    background: #E853BA;
+    cursor: pointer;
+}
+
+li.list:focus-within a {
+  outline: none;
+}
+
+ul li.list ul {
+    background: orange;
+    visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+    left: 0;
+  display: none;
+}
+
+ul li.list:hover > ul,
+ul li.list:focus-within > ul,
+ul li.list ul:hover,
+ul li.list ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block
+}
+
+ul li.list ul li.list {
+    clear: both;
+  width: 100%;
+}
+header{
+	text-align: center;
+	line-height: 0em;
+	border-bottom: 1px solid;
+	padding: 40px 25px;
+	margin: 20px 25px;
+}
+img.ballerina{
+	width: 150px;
+}
+h1{
+	font-family: 'Arapey', serif;
+	font-size: 100px;
+	font-weight: 100;
+}
+div#body{
+	margin: 0 30px;
+	padding: 55px;
+	background-color: #FEFFED;
+}
+h2{
+	font-family: 'Arapey', serif;
+	font-weight: 100;
+}
+p{
+	font-family: 'Raleway', sans-serif;
+	text-indent: 25px;
+	text-align: justify;
+}
+ol{
+	list-style: none;
+	font-family: 'Raleway', sans-serif;
+}
+img.article{
+	width: 30%;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+div{
+	clear: left;
+}
+#ref{
+	font-size: 12px;
+}

@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Arapey|Pinyon+Script|Noto+Serif+TC|Raleway');
+
+body {
+  -webkit-animation: color 10s cubic-bezier(1,0,0,1) infinite;
+  animation: color 5s cubic-bezier(1,0,0,1) infinite;  
+}
+
+@-webkit-keyframes color {
+  0% { background-color: #fff0f7; border: 2px solid #fff0f7; }
+  10% { background-color: #ffe1f0; border: 2px solid #ffe1f0;  }  
+  20% {background-color: #fff0f7; border: 2px solid #fff0f7; }
+  30% { background-color: #ffe1f0; border: 2px solid #ffe1f0;  }
+  40% { background-color: #ffd2e8; border: 2px solid #ffd2e8; }
+  50% { background-color: #ffc3e1; border: 2px solid #ffc3e1;  }  
+  60% {background-color: #ffd2e8; border: 2px solid #ffd2e8; }
+  70% { background-color: #ffe1f0; border: 2px solid #ffe1f0;  }
+  80% {background-color: #fff0f7; border: 2px solid #fff0f7; }
+  90% { background-color: #ffe1f0; border: 2px solid #ffe1f0;  }
+  100% { background-color: #ffc3e1; border: 2px solid #ffc3e1;  }
+}
+
+@keyframes color {
+  0% { background-color: #fff0f7; border: 2px solid #fff0f7; }
+  10% { background-color: #ffe1f0; border: 2px solid #ffe1f0;  }  
+  20% {background-color: #fff0f7; border: 2px solid #fff0f7; }
+  30% { background-color: #ffe1f0; border: 2px solid #ffe1f0;  }
+  40% { background-color: #ffd2e8; border: 2px solid #ffd2e8; }
+  50% { background-color: #ffc3e1; border: 2px solid #ffc3e1;  }  
+  60% {background-color: #ffd2e8; border: 2px solid #ffd2e8; }
+  70% { background-color: #ffe1f0; border: 2px solid #ffe1f0;  }
+  80% {background-color: #fff0f7; border: 2px solid #fff0f7; }
+  90% { background-color: #ffe1f0; border: 2px solid #ffe1f0;  }
+  100% { background-color: #ffc3e1; border: 2px solid #ffc3e1;  }
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 87%;}
+}
+@keyframes blinkTextCursor{
+  from {border-color: red;}
+  to{border-color: transparent;}
+}
+
+
+.centeredballet{
+  text-align: center;
+   color: black;
+   font-family: 'Anonymous Pro', monospace;  
+}
+
+a:link, a:visited{
+  text-decoration: none;
+}
+
+a:link, a:visited{
+  text-decoration: none;
+  color: black;
+}
+
+.dance,{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:40%;
+  height:40%;
+}
+
+.dance2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:40%;
+  height:40%;
+}
+
+.dance3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:20%;
+  height:20%;
+}
+.dance4{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:30%;
+  height:30%;
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 400%;
+}
+
+.container2{
+   position: relative;
+    text-align: center;
+    color: black;
+    font-size: 400%;
+    padding: 70px 0;
+}
+
+.container3{
+   position: relative;
+    text-align: center;
+    color: black;
+    font-size: 400%;
+    padding: 70px 0;
+}
+
+
+.centered {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 140%;   
+    opacity: 0.8;
+}
+
+.centered2{
+  position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 140%;   
+    opacity: 0.8;
+}
+
+.centered3{
+  position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 140%;   
+    opacity: 0.8;
+}
+.centered4{
+  position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 140%;   
+    opacity: 0.8;
+}
+
+h1{
+  font-family: 'Arapey', serif;
+  text-align: center;
+  font-size: 100%;
+}
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+.type{
+    position: relative;  
+    width: 24em;
+    border-right: 2px solid rgba(255,255,255,.75);
+    text-align: center;
+    font-size: 100%;
+     color: black;
+    overflow: hidden;
+    margin: 0 auto;
+    white-space: nowrap;
+    letter-spacing: .1em;
+    transform: translateY(-50%);
+    animation: typewriter 9s steps(64) 1s 1 normal both,
+    blinkTextCursor 500ms steps(64) infinite normal;
+    animation-iteration-count: infinite;
+    font-family: 'Anonymous Pro', monospace;  
+
+}
+
+
+
+
+
+div.biology{
+    padding: 2em;
+    border-top: 2px solid black;
+    background-color: white;
+    width: 100%;
+    height: 650px;
+
+}
+div.physics{
+  padding: 2em;
+    border-top: 2px solid black;
+  width: 100%;
+    height: 650px;
+  background-color: #FDFDFD;
+}
+
+div.chemistry, div.team{
+  padding: 2em;
+    border-top: 2px solid black;
+    
+    width: 100%;
+    height: 650px;
+}
+
+body{
+  margin: 0px;
+}
+
+.title{
+  font-size: 400%;
+  text-align: center;
+   font-family: 'Arapey', serif;  
+}
+
+.description{
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-family: Raleway;
+  font-size: 110%;
+}
+
+.description2{
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-family: Raleway;
+  font-size: 30%;
+}
+
+a:hover{
+  font-size: 120%;
+  color: red;
+  transition: 1s;
+}
+
+a.change:hover{
+  font-size: 120%;
+  color: gray;
+  transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
